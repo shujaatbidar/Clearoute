@@ -24,6 +24,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "homepage": "https://github.com/shujaatbidar/Clearoute.git",
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -41,9 +42,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "homepage": {
-    "home": "http://{github-username}.github.io/{repo-name}"
   },
   "devDependencies": {
     "gh-pages": "^6.1.0"
