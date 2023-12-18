@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://github.com/shujaatbidar/Clearoute.git",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -22,7 +23,6 @@
     "styled-components": "^6.1.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://github.com/shujaatbidar/Clearoute.git",
   "devDependencies": {
     "@types/react": "^18.2.43",
     "@types/react-dom": "^18.2.17",
