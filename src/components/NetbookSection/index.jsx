@@ -1,6 +1,6 @@
 import React from 'react';
 import background from '../../images/img.png'
-import { NetbookContainer, NetbookBG, ImageBG, InfoContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, InfoBtnLink, InfoBtnLinktwo, ImgWrap, Img } from './NetbookElements'
+import { NetbookContainer, NetbookBG, ImageBG, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, InfoBtnLink, InfoBtnLinktwo, ImgWrap, Img } from './NetbookElements'
 import { Button } from 'react-scroll';
 import img from '../../images/test.svg'
 
