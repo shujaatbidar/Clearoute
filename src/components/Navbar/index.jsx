@@ -22,15 +22,12 @@ const Navbar = ({ toggle }) => {
                 </NavItem>
                 <NavItem>
                     <NavLinks to="community" className='one'>Community</NavLinks>
-
                 </NavItem>
                 <NavItem>
                     <NavLinks to="blog" className='two'>Blog</NavLinks>
-
                 </NavItem>
                 <NavItem>
                     <NavLinks to="signup" className='three'>Events</NavLinks>
-
                 </NavItem>
             </NavMenu>
             <NavBtn>
