@@ -27,7 +27,6 @@ export const NetbookBG = styled.div`
  height: 100%;
  overflow: hidden;
 
-
 `;
 
 export const ImageBG = styled.img`

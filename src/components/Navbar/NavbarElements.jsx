@@ -21,7 +21,7 @@ export const Nav = styled.nav`
 `;
 export const NavbarContainer = styled.div`
     display: flex;
-    justify-content: space-between;
+
     height: 80px;
     z-index: 1;
     width: 100%;
@@ -36,7 +36,7 @@ export const NavLogo = styled(LinkR)`
     font-size: 1.5rem;
     display: flex;
     align-items: center;
-    margin-left: 24px;
+    padding: 0 100px 0 0;
     font-weight: bold;
     text-decoration: none;
 `;
@@ -61,7 +61,7 @@ export const NavMenu = styled.p`
  align-items: center;
  list-style: none;
  text-align: center;
- margib-right: -22px;
+ margin-right: 22px;
 
 
 
@@ -79,7 +79,8 @@ export const NavLinks = styled(LinkS)`
  display: flex;
  align-items: center;
  text-decoration: none;
- padding: 0 1rem;
+ padding: 0 2rem 0 1rem;
+ margin-right: 22px;
  height: 100%;
  cursor: pointer;
 
@@ -91,6 +92,7 @@ export const NavLinks = styled(LinkS)`
 export const NavBtn = styled.nav`
 display: flex;
 align-items: center;
+margin-left: 140px;
 
 @media screen and (max-width: 768px) {
     display: none;
