@@ -18,18 +18,18 @@ const Navbar = ({ toggle }) => {
             </MobileIcon>
             <NavMenu>
                 <NavItem>
-                    <NavLinks to="about">Home</NavLinks>
+                    <NavLinks to="about" className='zero'>Home</NavLinks>
                 </NavItem>
                 <NavItem>
-                    <NavLinks to="community">Community</NavLinks>
+                    <NavLinks to="community" className='one'>Community</NavLinks>
 
                 </NavItem>
                 <NavItem>
-                    <NavLinks to="blog">Blog</NavLinks>
+                    <NavLinks to="blog" className='two'>Blog</NavLinks>
 
                 </NavItem>
                 <NavItem>
-                    <NavLinks to="signup">Events</NavLinks>
+                    <NavLinks to="signup" className='three'>Events</NavLinks>
 
                 </NavItem>
             </NavMenu>

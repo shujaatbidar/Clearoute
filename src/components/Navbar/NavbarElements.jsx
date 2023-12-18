@@ -72,14 +72,27 @@ export const NavMenu = styled.p`
 
 export const NavItem = styled.li`
  height: 80px;
+ .zero {
+    font-weight: bold;
+ }
+ .one {
+    font-weight: 300;
+ }
+ .two {
+    font-weight: 300;
+ }
+ .three {
+    font-weight: 300;
+ }
 `;
+
 
 export const NavLinks = styled(LinkS)`
  color: #000;
  display: flex;
  align-items: center;
  text-decoration: none;
- padding: 0 1rem 0 1rem;
+ padding: 0 0rem 0 1rem;
  margin-right: 22px;
  height: 100%;
  cursor: pointer;
