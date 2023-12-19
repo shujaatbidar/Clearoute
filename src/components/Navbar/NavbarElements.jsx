@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import {Link as LinkR } from 'react-router-dom';
 import {Link as LinkS } from 'react-scroll';
-import IconMaginify from '../../images/searchIcon';
+
 
 export const Nav = styled.nav`
     background: rgba(0, 0, 0, 0);
@@ -100,7 +100,7 @@ export const NavLinks = styled(LinkS)`
 }
 `;
 
-export const SearchItem = styled.div`
+export const SearchItem = styled.form`
 display: flex;
 align-items: center;
 list-style: none;
@@ -110,15 +110,12 @@ padding: 0 10px 0 180px;
 
 export const SearchInput = styled.input`
 height: 30px;
-width: 100px;
+width: 120px;
 border: 0;
 outline: 0;
 background: transparent;
 border-bottom: 1px solid grey;
 ;
-`;
-
-export const IconGlass = styled(IconMaginify)`
 `;
 
 export const NavBtn = styled.nav`

@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react';
 import {FaBars} from 'react-icons/fa';
-import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, SearchItem, SearchInput, IconGlass, NavBtn, NavBtnLink
+import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, SearchItem, SearchInput, NavBtn, NavBtnLink
  } from './NavbarElements';
  import newimage from "../../images/logo.svg"
 
@@ -32,8 +32,7 @@ const Navbar = ({ toggle }) => {
                 </NavItem>
             </NavMenu>
             <SearchItem>
-              <IconGlass />
-              <SearchInput />
+              <SearchInput placeholder='🔍  Search Here ..'/>
             </SearchItem>
             <NavBtn>
                 <NavBtnLink to="signin">Log In</NavBtnLink>
