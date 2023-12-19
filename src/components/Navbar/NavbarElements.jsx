@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import {Link as LinkR } from 'react-router-dom';
 import {Link as LinkS } from 'react-scroll';
-
+import IconMaginify from '../../images/searchIcon';
 
 export const Nav = styled.nav`
     background: rgba(0, 0, 0, 0);
@@ -19,9 +19,9 @@ export const Nav = styled.nav`
         transition: 0.8s all ease;
     }
 `;
+
 export const NavbarContainer = styled.div`
     display: flex;
-
     height: 80px;
     z-index: 1;
     width: 100%;
@@ -63,8 +63,6 @@ export const NavMenu = styled.p`
  text-align: center;
  margin-right: 22px;
 
-
-
  @media screen and (max-width: 768px) {
     display: none;
  }
@@ -102,18 +100,47 @@ export const NavLinks = styled(LinkS)`
 }
 `;
 
+export const SearchItem = styled.div`
+display: flex;
+align-items: center;
+list-style: none;
+text-align: center;
+padding: 0 10px 0 180px;
+`;
+
+export const SearchInput = styled.input`
+height: 30px;
+width: 100px;
+border: 0;
+outline: 0;
+background: transparent;
+border-bottom: 1px solid grey;
+;
+`;
+
+export const IconGlass = styled(IconMaginify)`
+`;
+
 export const NavBtn = styled.nav`
 display: flex;
 align-items: center;
-margin-left: 340px;
+margin-left: 10px;
 
 @media screen and (max-width: 768px) {
     display: none;
+    border-radius: 50px;
+    background: #217BF4;
+    white-space: nowrap;
+    padding: 10px 22px;
+    color: #fff;
+    font-size: 16px;
+    outline: none;
+    border: none;
 }
 `;
 
 export const NavBtnLink = styled(LinkR)`
- border-radius: 50px;
+ border-radius: 10px;
  background: #217BF4;
  white-space: nowrap;
  padding: 10px 22px;

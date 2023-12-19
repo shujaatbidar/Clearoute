@@ -1,12 +1,13 @@
-import React from 'react';
+import React, { useRef, useState } from 'react';
 import {FaBars} from 'react-icons/fa';
-import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink
+import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, SearchItem, SearchInput, IconGlass, NavBtn, NavBtnLink
  } from './NavbarElements';
  import newimage from "../../images/logo.svg"
 
 
  
 const Navbar = ({ toggle }) => {
+
   return (
     <>
       <Nav>
@@ -30,6 +31,10 @@ const Navbar = ({ toggle }) => {
                     <NavLinks to="signup" className='three'>Events</NavLinks>
                 </NavItem>
             </NavMenu>
+            <SearchItem>
+              <IconGlass />
+              <SearchInput />
+            </SearchItem>
             <NavBtn>
                 <NavBtnLink to="signin">Log In</NavBtnLink>
             </NavBtn>
